@@ -1,10 +1,10 @@
-def word_count(input_string):
-	"""
+def words(input_string):
+	'''
 		Counts the number of words in a string and its number of occurances
 
 		:param input_string
     	:return my_dictionary:
-	"""
+	'''
 	my_dictionary = {}
 	my_string = input_string.split()
 	for word in my_string:
@@ -15,4 +15,4 @@ def word_count(input_string):
 			my_dictionary[word] += 1
 	return my_dictionary
 
-print word_count("check this out and me out ")
+print words("check this 123 and me")
