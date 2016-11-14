@@ -9,7 +9,9 @@ def words(input_string):
 	my_string = input_string.split()
 	for word in my_string:
 		dictionary_keys = my_dictionary.keys()
-		if word not in dictionary_keys:
+		if word not in dictionary_keys and word.isdigit():
+			my_dictionary[int(word)] = 1
+		elif word not in dictionary_keys:
 			my_dictionary[word] = 1
 		else:
 			my_dictionary[word] += 1
