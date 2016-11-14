@@ -18,7 +18,7 @@ This code finds maximum and minumum numbers in an aray of numbers  and returns b
 
 ### 3.The word_count
 This code counts the number of words in a string and its number of occurances
->It relies on the **if_else logic to execute.
+>It relies on the **if_else** logic to execute.
 
 
 		
