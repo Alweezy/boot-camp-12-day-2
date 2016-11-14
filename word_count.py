@@ -1,9 +1,8 @@
 def words(input_string):
 	'''
 		Counts the number of words in a string and its number of occurances.
-
 		:param input_string
-    	:return my_dictionary:
+    	:return: my_dictionary:
 	'''
 	my_dictionary = {}
 	my_string = input_string.split()
